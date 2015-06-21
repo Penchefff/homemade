@@ -8,7 +8,7 @@ describe Item do
 	
 	
 	before :each do
-		@item = Item.new "name", "id", "price"
+		@item = Item.new "name", "id", "price", "discount_price"
 	end
 	
 	describe "#initialize" do
@@ -17,7 +17,7 @@ describe Item do
 		end
 	end
 	
-	describe "#get_price" do
+	describe "#get_item_price" do
 		it "should return item`s price" do
 			
 		end
@@ -31,4 +31,4 @@ describe Item do
 	
 	
 	
-endb
+end
