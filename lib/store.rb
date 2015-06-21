@@ -1,4 +1,4 @@
-require './item.rb'
+shrequire './item.rb'
 
 class Store
 	@@items = []

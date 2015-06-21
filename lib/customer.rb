@@ -19,7 +19,7 @@ class Customer
 		puts("Total price in this cart is: #{@@cart.calculate_sum(store)}")
 	end
 	
-	def look_cart(store)
+	def alook_cart(store)
 		@@cart.show(store)
 	end
 	
