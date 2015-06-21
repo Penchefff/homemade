@@ -1,6 +1,6 @@
 require './shoppingcart.rb'
 require './store.rb'
-asdsad
+
 class Customer
 	
 	@@cart = Shoppingcart.new()
